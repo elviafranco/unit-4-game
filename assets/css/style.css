@@ -1,0 +1,69 @@
+body {
+    font-family: 'IM Fell English', serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    display: block;
+    border: 5px solid black;
+    border-style: double;
+    background: lavender;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 
+{
+    text-align:center;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; justify-content: center; */
+}
+
+#textBox{
+    display: block;
+    border: 5px solid lightgray;
+    border-style: inset;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+#scoreBox {
+    display: block;
+    border: 1px solid black;
+    background: darkmagenta;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 10px grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
